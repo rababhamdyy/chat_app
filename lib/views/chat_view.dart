@@ -8,7 +8,7 @@ class ChatView extends StatelessWidget {
       alignment: Alignment.centerLeft,
       child: Container(
         padding: const EdgeInsets.all(16),
-        margin: const EdgeInsets.all(16),
+        margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
         decoration: BoxDecoration(
           color: Colors.grey[400],
           borderRadius: BorderRadius.circular(12),
